@@ -1,0 +1,6 @@
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\bin\Debug\IPG203_Warehousesystem.exe.config
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\obj\Debug\IPG203_Warehousesystem.csprojResolveAssemblyReference.cache
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\bin\Debug\IPG203_Warehousesystem.exe
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\bin\Debug\IPG203_Warehousesystem.pdb
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\obj\Debug\IPG203_Warehousesystem.exe
+c:\users\mosta\documents\visual studio 2015\Projects\IPG203_Warehousesystem\IPG203_Warehousesystem\obj\Debug\IPG203_Warehousesystem.pdb
