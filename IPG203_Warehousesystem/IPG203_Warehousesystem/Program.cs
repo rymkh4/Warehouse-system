@@ -22,14 +22,20 @@ namespace IPG203_Warehousesystem
             warehouse.AddMedicine(med2);
             warehouse.AddMedicine(med3);
 
+            Console.WriteLine("============================");
+            Console.WriteLine("\nCurrent Medicines:");
+            warehouse.ShowAllMedicines();
+
             Pharmacy pharmacy = new Pharmacy("AlShifa Pharmacy");
 
             Order order = new Order(pharmacy);
             order.AddItem(new OrderItem(med1, 5));
             order.AddItem(new OrderItem(med2, 2));
 
-            warehouse.AddOrder(order);
             Console.WriteLine("============================");
+            Console.WriteLine("\nCurrent Orders After Order1:");
+            warehouse.AddOrder(order);
+            warehouse.ShowOrders();
 
             // 
             Pharmacy pharmacy2 = new Pharmacy("Health Pharmacy");
@@ -38,19 +44,24 @@ namespace IPG203_Warehousesystem
             order2.AddItem(new OrderItem(med1, 35));
             order2.AddItem(new OrderItem(med3, 10));
 
+            Console.WriteLine("============================");
+            Console.WriteLine("\nCurrent Orders After Order2:");
             warehouse.AddOrder(order2);
+            warehouse.ShowOrders();
             Console.WriteLine("============================");
             // 
             Pharmacy pharmacy3 = new Pharmacy("Mousqe Pharmacy");
 
             Order order3 = new Order(pharmacy3);
             order3.AddItem(new OrderItem(med1, 2));
-            order3.AddItem(new OrderItem(med3, 3));
+            order3.AddItem(new OrderItem(med2, 1));
 
+            Console.WriteLine("\nCurrent Orders After Order3:");
             warehouse.AddOrder(order3);
-            Console.WriteLine("\nCurrent Orders:");
             warehouse.ShowOrders();
-            Console.WriteLine("Warehouse Statistics: ");
+            Console.WriteLine("============================");
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Warehouse Status: ");
             Console.WriteLine("============================");
             Console.WriteLine("\nCurrent Orders:");
             warehouse.ShowOrders();
