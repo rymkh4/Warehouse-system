@@ -56,7 +56,7 @@ namespace IPG203_Warehousesystem
             }
 
             orders.Add(order);
-            Console.WriteLine("Order saved successfully.");
+            Console.WriteLine($"Order of Pharmacy ({order.Pharmacy.PharmacyName}) saved successfully.");
         }
 
         public void ShowOrders()
